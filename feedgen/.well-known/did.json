@@ -1,0 +1,11 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:dealsnipers.github.io:deal-snipers-links",
+  "service": [
+    {
+      "id": "#bsky_fg",
+      "type": "BskyFeedGenerator",
+      "serviceEndpoint": "https://dealsnipers.github.io/deal-snipers-links/feedgen"
+    }
+  ]
+}
