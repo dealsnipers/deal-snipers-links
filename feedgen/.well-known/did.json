@@ -1,6 +1,17 @@
 {
-  "@context": ["https://www.w3.org/ns/did/v1"],
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
   "id": "did:web:dealsnipers.github.io:deal-snipers-links",
+  "verificationMethod": [
+    {
+      "id": "did:web:dealsnipers.github.io:deal-snipers-links#atproto",
+      "type": "Multikey",
+      "controller": "did:web:dealsnipers.github.io:deal-snipers-links",
+      "publicKeyMultibase": "z6Mks5yLrWpz591tfTiedjG5yg55WLtXATmHf4bVV3xRCN8w"
+    }
+  ],
   "service": [
     {
       "id": "#bsky_fg",
