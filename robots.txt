@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dealsnipers.github.io/deal-snipers-links/sitemap.xml
