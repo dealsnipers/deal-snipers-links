@@ -27,6 +27,7 @@ border:1px solid var(--line);border-radius:17px;overflow:hidden;display:flex;fle
 .badges{display:flex;gap:7px;flex-wrap:wrap}.badge{font-size:.74rem;font-weight:800;letter-spacing:.02em;
 padding:4px 8px;border-radius:999px;background:rgba(61,220,116,.14);color:var(--green);border:1px solid rgba(61,220,116,.35)}
 .badge.score{background:rgba(255,200,87,.12);color:var(--amber);border-color:rgba(255,200,87,.3)}
+.badge.lowest{background:rgba(255,122,122,.13);color:var(--red);border-color:rgba(255,122,122,.4)}
 .card h3{font-size:1rem;margin:0}.card h3 a{color:var(--text);text-decoration:none}.price-row{display:flex;gap:9px;
 align-items:baseline;flex-wrap:wrap;margin-top:auto}.price{font-size:1.35rem;font-weight:850}.was{color:var(--muted);
 text-decoration:line-through}.save{color:var(--green);font-weight:750}.meta{color:var(--muted);font-size:.84rem}
